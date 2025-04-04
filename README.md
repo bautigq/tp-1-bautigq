@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nYqVF7Kz)
 # Trabajo Práctico 1
 
 ## Ejercicio 1
@@ -58,6 +59,29 @@ Ejemplo: Para a = 57 y b = 7 el output debera ser:
 8
 1
 8.142857142857142
+
+def main():
+    a = int(input())
+    b = int(input())
+
+    suma = a + b
+    diferencia = a - b
+    producto = a * b
+    promedio = (a + b) / 2
+    cociente_entero = a // b
+    resto = a % b
+    division_real = a / b
+
+    print(suma)
+    print(diferencia)
+    print(producto)
+    print(promedio)
+    print(cociente_entero)
+    print(resto)
+    print(division_real)
+
+if __name__ == "__main__":
+    main()
 ```
 
 
